@@ -1,4 +1,4 @@
-package com.android.settings.gzosp;
+package com.android.settings.custom;
 
 import android.content.Context;
 import android.provider.Settings;

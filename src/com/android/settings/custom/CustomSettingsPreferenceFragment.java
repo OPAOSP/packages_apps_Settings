@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.gzosp;
+package com.android.settings.custom;
 
 import android.os.Bundle;
 import android.provider.Settings;
@@ -140,6 +140,6 @@ public abstract class CustomSettingsPreferenceFragment extends SettingsPreferenc
 
     @Override
     public int getMetricsCategory() {
-        return MetricsEvent.GZOSP;
+        return MetricsEvent.OPAOSP;
     }
 }

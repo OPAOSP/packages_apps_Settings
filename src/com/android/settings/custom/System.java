@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.gzosp;
+package com.android.settings.custom;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -24,7 +24,7 @@ import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
 
 import com.android.settings.R;
-import com.android.settings.gzosp.CustomSettingsPreferenceFragment;
+import com.android.settings.custom.CustomSettingsPreferenceFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.search.Indexable;
 import com.android.settingslib.search.SearchIndexable;

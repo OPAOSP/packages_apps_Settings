@@ -167,14 +167,14 @@
             android:title="@string/theme_customization_icon_shape_title"/>
     </PreferenceCategory>
 
-    <com.android.settings.gzosp.SystemSettingSwitchPreference
+    <com.android.settings.custom.SystemSettingSwitchPreference
         android:key="enable_conditions"
         android:title="@string/dashboard_conditions_title"
         android:summaryOn="@string/summary_dashboard_conditions_enabled"
         android:summaryOff="@string/summary_dashboard_conditions_disabled"
         android:defaultValue="true" />
 
-    <com.android.settings.gzosp.SystemSettingSwitchPreference
+    <com.android.settings.custom.SystemSettingSwitchPreference
         android:key="enable_suggestions"
         android:title="@string/dashboard_suggestions_title"
         android:summaryOn="@string/summary_dashboard_suggestions_enabled"
@@ -185,10 +185,10 @@
         android:key="global_actions"
         android:title="@string/global_actions_title"
         android:summary="@string/global_actions_summary"
-        android:fragment="com.android.settings.gzosp.GlobalActionsSettings"
+        android:fragment="com.android.settings.custom.GlobalActionsSettings"
         settings:allowDividerAbove="true" />
 <!--
-    <com.android.settings.gzosp.SystemSettingSwitchPreference
+    <com.android.settings.custom.SystemSettingSwitchPreference
         android:key="advanced_reboot"
         android:title="@string/global_actions_advanced_reboot_title"
         android:summary="@string/global_actions_advanced_reboot_summary"
